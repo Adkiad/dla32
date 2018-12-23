@@ -17,7 +17,7 @@ client.user.setStatus("dnd")
 
 
 
-client.on('ready',async () => { client.channels.find(ch => ch.id === "515217327252307978" && ch.type === 'voice').join(); });
+client.on('ready',async () => { client.channels.find(ch => ch.id === "515216378849001485" && ch.type === 'voice').join(); });
 
 
 client.on('guildMemberAdd', member => {
